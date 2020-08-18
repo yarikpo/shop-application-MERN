@@ -1,0 +1,41 @@
+GET http://localhost:3001/api/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoidXNlciIsInBhc3N3b3JkIjoiMDAwMCIsImlhdCI6MTU5NzYyMjE5MiwiZXhwIjoxNTk3NjIyMjEyfQ.RMG1EMsfSmpwTbpWnYnD7ju3UlNSH9-dAukIN3LqP-Q
+
+###
+
+DELETE http://localhost:3001/api/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibmV3LXVzZXItMSIsInBhc3N3b3JkIjoiMTIzIiwiaWF0IjoxNTk3NjE3OTY0fQ.dpGdyQjTvPgTePNtXlmISJHkv7Diof-eb4OTnHOVPLw"
+}
+
+###
+
+POST http://localhost:3001/api/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoibmV3LXVzZXItMSIsInBhc3N3b3JkIjoiMTIzIiwiaWF0IjoxNTk3NjE3OTY0fQ.dpGdyQjTvPgTePNtXlmISJHkv7Diof-eb4OTnHOVPLw"
+}
+
+###
+
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+    "username": "new-user-1",
+    "password": "123"
+}
+
+###
+
+POST http://localhost:3001/api/register
+Content-Type: application/json
+
+{
+    "username": "new-user-1",
+    "password": "123",
+    "email": "u@1"
+}

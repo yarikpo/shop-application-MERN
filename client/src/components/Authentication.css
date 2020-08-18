@@ -1,0 +1,137 @@
+.auth form {
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: block;
+    justify-content: center;
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px 20px 20px 20px;
+
+    border-width: 5px;
+    /* border-radius: 20px; */
+    border-style: double;
+    border-color: #9bc400;
+
+    background-color: #efefef;
+}
+
+.sign-btns {
+    display: block;
+}
+
+.sign-btns button {
+    width: 50%;
+    height: 50px;
+    background-color: #43a047;
+    color: #fefefe;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.sign-btns button:first-child {
+    border-right-color: #37853b;
+    border-right-width: 1px;
+    border-right-style: solid;
+
+    background-color: #fefefe;
+    color: #000;
+
+}
+
+.login-field {
+    display: block;
+    margin-top: 40px;
+    font-size: 1.4em;
+}
+
+.login-field label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-field input {
+    display: block;
+    width: 96%;
+    height: 50px;
+
+    font-size: 1em;
+
+    border-width: 1px;
+    border-color: #ddd;
+    border-style: solid;
+    border-radius: 0px;
+
+    padding: 0px 8px 0px 8px;
+}
+
+
+
+.password-field {
+    display: block;
+    margin-top: 40px;
+    font-size: 1.4em;
+}
+
+.password-field label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.password-field input {
+    display: block;
+    width: 96%;
+    height: 50px;
+
+    font-size: 1em;
+
+    border-width: 1px;
+    border-color: #ddd;
+    border-style: solid;
+    border-radius: 0px;
+
+    padding: 0px 8px 0px 8px;
+}
+
+
+
+.email-field {
+    display: block;
+    margin-top: 40px;
+    font-size: 1.4em;
+}
+
+.email-field label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.email-field input {
+    display: block;
+    width: 96%;
+    height: 50px;
+
+    font-size: 1em;
+
+    border-width: 1px;
+    border-color: #ddd;
+    border-style: solid;
+    border-radius: 0px;
+
+    padding: 0px 8px 0px 8px;
+}
+
+.submit-field {
+    display: block;
+    margin-top: 40px;
+    width: 100%;
+    height: 80px;
+
+    background-color: #43a047;
+    color: #fefefe;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+/* .header {
+    display: block;
+    margin-top: 10px;
+    background-color: #1a746b;
+} */
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    color: #efefef;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+.header .right {
+    float: right;
+}
+
+.header li button {
+    display: block;
+    color: #efefef;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.6em;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
